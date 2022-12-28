@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-12-28T00:31:47.447Z",
+    "end": "2022-12-28T00:31:48.008Z",
+    "duration": 561
+  },
+  "tests": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"after each\" hook for \"should return a new array containing the first two drivers from the passed-in array\"",
+      "fullTitle": "index.js \"after each\" hook for \"should return a new array containing the first two drivers from the passed-in array\"",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "MAKE SURE YOUR ARRAY MANIPULATIONS ARE NON-DESTRUCTIVE: expected [ 'Amari', 'Mo' ] to deeply equal [ 'Antonia', 'Nuru', 'Amari', 'Mo' ]",
+        "showDiff": true,
+        "actual": "[\n  \"Amari\"\n  \"Mo\"\n]",
+        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n  \"Amari\"\n  \"Mo\"\n]",
+        "stack": "AssertionError: MAKE SURE YOUR ARRAY MANIPULATIONS ARE NON-DESTRUCTIVE: expected [ 'Amari', 'Mo' ] to deeply equal [ 'Antonia', 'Nuru', 'Amari', 'Mo' ]\n    at Context.<anonymous> (test/indexTest.js:7:82)\n    at process.processImmediate (node:internal/timers:471:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
